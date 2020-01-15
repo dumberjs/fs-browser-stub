@@ -4,13 +4,6 @@ function panic(api) {
   }
 }
 
-// for realpath and realpathSync
-panic.native = function() {
-  return function() {
-    throw new Error('fs.realpath.native and fs.realpathSync.native is not implemented in browser');
-  }
-};
-
 var fsFuncs = [
   'appendFile',
   'appendFileSync',
