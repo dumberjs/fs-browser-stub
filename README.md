@@ -1,4 +1,4 @@
-# fs-browser-stub [![Build Status](https://travis-ci.org/dumberjs/fs-browser-stub.svg?branch=master)](https://travis-ci.org/dumberjs/fs-browser-stub)
+# fs-browser-stub ![CI](https://github.com/dumberjs/fs-browser-stub/workflows/CI/badge.svg)
 
 Stub node fs module in browser.
 

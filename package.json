@@ -27,6 +27,6 @@
   "homepage": "https://github.com/dumberjs/fs-browser-stub#readme",
   "devDependencies": {
     "standard-changelog": "^2.0.21",
-    "tape": "^4.13.0"
+    "tape": "^4.13.2"
   }
 }
