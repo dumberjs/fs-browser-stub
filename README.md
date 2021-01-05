@@ -5,7 +5,7 @@ Stub node fs module in browser.
 `fs.readFile` is still a function, would not throw an error.
 Only when user calls `fs.readFile()`, it then throw an error.
 
-# What this resolve?
+# What does this resolve?
 
 By default, browserify/webpack/parcel/fusebox/dumber would stub `fs` module with nothing or an empty object `{}`.
 
