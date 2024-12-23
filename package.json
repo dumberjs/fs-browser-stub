@@ -1,6 +1,6 @@
 {
   "name": "fs-browser-stub",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Stub node fs module in browser",
   "main": "index.js",
   "exports": {

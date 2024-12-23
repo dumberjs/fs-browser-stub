@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/dumberjs/fs-browser-stub/compare/v1.0.1...v1.1.0) (2024-12-23)
+
+
+### Features
+
+* support subpath loading require("fs/promises") ([28193fc](https://github.com/dumberjs/fs-browser-stub/commit/28193fcb30e5ee82f08d87eef56a2ad33b058b62))
+
+
+
 ## [1.0.1](https://github.com/dumberjs/fs-browser-stub/compare/v1.0.0...v1.0.1) (2020-01-17)
 
 
