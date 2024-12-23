@@ -1,3 +1,5 @@
+const promises = require('./promises');
+
 function panic(api) {
   return function() {
     throw new Error(`fs.${api} is not implemented in browser`);
@@ -93,34 +95,6 @@ var fsFuncs = [
   'FileWriteStream',
 ];
 
-var promiseFuncs = [
-  'access',
-  'copyFile',
-  'open',
-  'opendir',
-  'rename',
-  'truncate',
-  'rmdir',
-  'mkdir',
-  'readdir',
-  'readlink',
-  'symlink',
-  'lstat',
-  'stat',
-  'link',
-  'unlink',
-  'chmod',
-  'lchmod',
-  'lchown',
-  'chown',
-  'utimes',
-  'realpath',
-  'mkdtemp',
-  'writeFile',
-  'appendFile',
-  'readFile'
-];
-
 var fs = {
   F_OK: 0,
   R_OK: 4,
@@ -183,7 +157,7 @@ var fs = {
     UV_FS_COPYFILE_FICLONE_FORCE: 4,
     COPYFILE_FICLONE_FORCE: 4
   },
-  promises: {}
+  promises: promises
 };
 
 var i, ii, n;
@@ -194,10 +168,5 @@ for (i = 0, ii = fsFuncs.length; i < ii; i++) {
 
 fs.realpath.native = panic('realpath.native');
 fs.realpathSync.native = panic('realpathSync.native');
-
-for (i = 0, ii = promiseFuncs.length; i < ii; i++) {
-  n = promiseFuncs[i];
-  fs.promises[n] = panic('promises.' + n);
-}
 
 module.exports = fs;

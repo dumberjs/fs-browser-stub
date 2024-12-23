@@ -3,6 +3,11 @@
   "version": "1.0.1",
   "description": "Stub node fs module in browser",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./promises": "./promises.js",
+    "./package.json": "./package.json"
+  },
   "files": [
     "index.js"
   ],
@@ -26,7 +31,7 @@
   },
   "homepage": "https://github.com/dumberjs/fs-browser-stub#readme",
   "devDependencies": {
-    "standard-changelog": "^2.0.21",
-    "tape": "^4.13.2"
+    "standard-changelog": "^6.0.0",
+    "tape": "^5.9.0"
   }
 }
