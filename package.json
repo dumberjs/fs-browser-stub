@@ -9,7 +9,8 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "promises.js"
   ],
   "scripts": {
     "preversion": "npm test",
