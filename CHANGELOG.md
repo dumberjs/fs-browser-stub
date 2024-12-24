@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/dumberjs/fs-browser-stub/compare/v1.1.0...v1.1.1) (2024-12-24)
+
+
+### Bug Fixes
+
+* missed file in npm package ([bef4c25](https://github.com/dumberjs/fs-browser-stub/commit/bef4c25155e1bf64420da5a212d9259b02fedc3a))
+
+
+
 # [1.1.0](https://github.com/dumberjs/fs-browser-stub/compare/v1.0.1...v1.1.0) (2024-12-23)
 
 
